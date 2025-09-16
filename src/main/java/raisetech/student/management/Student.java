@@ -3,10 +3,11 @@ package raisetech.student.management;
 import lombok.Getter;
 import lombok.Setter;
 
+@Getter
+@Setter
+
 public class Student {
 
- @Getter
- @Setter
 
  private String id;
  private String fullName;
