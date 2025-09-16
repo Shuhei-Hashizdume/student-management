@@ -1,18 +1,19 @@
 package raisetech.student.management;
 
 
-import java.sql.Timestamp;
+
+import java.time.LocalDateTime;
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
 
-public class StudentCourses {
+public class StudentCourse {
   private int id;
   private String studentId;
   private String courseName;
-  private Timestamp startDate;
-  private Timestamp endDate;
+  private LocalDateTime startDate;
+  private LocalDateTime endDate;
 
 }
